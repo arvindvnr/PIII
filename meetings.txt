@@ -1,0 +1,92 @@
+Planning Meeting #1
+================================================================
+Date and time: 31/7/2016, 12.45 pm
+Location: BA3200
+
+Current state of the project:
+	Done: PI
+	Implemented (initially): All classes in FinalProject folder, including ShoppingScreen.java, as well as all classes in new package "GUI"
+	Working on: Completing implementation and testing of Project.java (API) for Phase II 
+Tasks for this week:
+	- Update CRC cards for Phase III (everyone)
+	- Implement new classes/methods according to Phase III specifications (everyone)
+	- Implement all the necessary components for the front end (everyone)
+
+Status Meeting #1
+================================================================
+Date and time: 1/8/2016, 4.45 pm
+Location: BA3200
+
+Arvind:
+	- Created a new folder “PIII” and added all project code and necessary files into it
+	- Added implementation to addRoute() and getDeliveryRoute() methods in Project.java; modified formatting and implementation layout of Project.java
+	- Added documentation to Node.java
+Anthony and Steven:
+	- Extensively modified classes in packages “users”, “products”, “finalproject” and “distributioncenter” in order to enable Project.java to perform correctly
+	- Modified implementation of and tested Project.java extensively as well 
+	- Will finish full implementation and testing of Project.java
+Sahair:
+	- Will start coordinating front end with back end
+Xuanang (Sam):
+	- Further modified ShoppingScreen.java, as well as classes in package “GUI”
+	- Added a new class, GUIAdminCommands.java, to package “GUI”
+Everyone:
+	- Modified different classes in newly created folder “PIII” extensively to attempt to make Project.java and front end work
+	- Will start implementing code to meet Phase III requirements, including finishing ProjectV1.java and coordinating front end with back end
+
+
+
+Planning Meeting #2
+================================================================
+Date and time: 1/8/2016, 8.00 pm
+Location: BA3200
+
+Current state of the project:
+	Done: PII
+	Working on: Completing implementation and testing of ProjectV1.java (API) for PIII, and implementation and testing of front end (GUI)
+Tasks for this week:
+	- Update CRC cards for Phase III (everyone)
+	- Generate Javadoc for Phase II and Phase III code (Arvind)
+	- Update/add classes/methods according to Phase III specifications and test them (everyone)
+	- Coordinate the front end with the back end and test the result (everyone)
+	- FINISH Phase III! (everyone)
+
+Status Meeting #2
+================================================================
+Date and time: 3/8/2016, 6.00 pm
+Location: BA3200
+
+Arvind:
+	- Created a new GUI class called GUIDCProduct.java in package “GUI”
+Anthony and Steven:
+	- Will help implement and test the functionality for GUIShopping.java
+Sahair:
+	- Will help complete the implementation of the tools to make the connection between the front end and the back end easier
+Xuanang (Sam):
+	- Will help complete all the classes in package “GUI”
+Everyone:
+	- Will help test administrator functionalities through the front end (indirectly testing coordination between front end and back end)
+	- Will modify classes in the back end if necessary
+
+
+
+Status Meeting #3
+================================================================
+Date and time: 4/8/2016, 10.00 pm
+Location: BA3200
+
+Arvind:
+	- Helping test the addition of distribution centers, products, administrators, categories and users
+Anthony and Sam:
+	- Extensively modified and modifying classes in package “GUI” in order to make all parts of the front end function correctly with the back end
+Sahair:
+	- Implemented classes ChopDictionary.java and DoubleArray.java in package “GUI”, to make the connection between the front end and the back end easier
+Steven:
+	- Helped implement search algorithms for searching products, categories (with Anthony)
+Everyone:
+	- Currently testing coordination of the front end with the back end, albeit in different ways
+	- Problems currently facing:
+		i. Shopper cannot view any of the products added by administrators; still working on implementing this
+		ii. In another front-end window displaying products, the quantities of the added products remain as 0; still working on fixing this
+		iii. Finishing full coordination of front end with back end
+		iv. Cannot go to next page of product display in the main product display window of the front end (related to GUIHelper.java in package “GUI”)
